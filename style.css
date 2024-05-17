@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.title {
+  width: 240px;
+  font-family: "Georgia", "Times", serif;
+  font-size: 29px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.title b, .section-title b {
+  font-weight: 400;
+  color: #ff8a00;
+}
+
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("img/bg.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feature-furniture {
+  padding-top: 65px;
+  background-image: url("img/furniture.svg");
+}
+
+.feature-lighting {
+  padding-top: 65px;
+  background-image: url("img/lighting.svg");
+}
+
+.feature-accessories {
+  padding-top: 65px;
+  background-image: url("img/accessories.svg");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.main {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;
+}
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #000000;
+}
+
+.standard {
+  border-color: #847462;
+}
+
+.vip {
+  border-color: #ffb864;
+}
+
+.site-footer {
+  min-width: 550px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.popular-products {
+  padding-top: 15px;
+  background-color: #fff3e5;
+  margin-bottom: 70px;
+}
+
+.container_2 {
+  width: 510px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.products-list {
+  display: flex;
+  padding: 14px 0 0;
+  margin: 0 0 0 -20px;
+  list-style: none;
+}
+
+.product-card {
+  position: relative;
+  width: 132px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 124px 12px 0;
+  font-family: "Georgia", "Times", serif;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-new {
+  position: relative;
+  order: -1;
+}
+
+.product-card-new::after {
+  position: absolute;
+  content: "new";
+  width: 158px;
+  height: 35px;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ff8a00;
+}
+
+.product-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-card h3 {
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.product-card p {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.product-card .price {
+  margin-top: auto;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: normal;
+  color: #ff8a00;
+}
+
+.price del {
+  margin-right: 2px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  text-decoration: line-through;
+}
+.colorText {
+  color: #f33a00
+}
+.bgColorText {
+    background-color: #ffff00
+}
